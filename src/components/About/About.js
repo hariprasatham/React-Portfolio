@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/sukrut_square.jpg";
+import AboutImg from "../../Assets/programmer.png"
 import Tilt from "react-parallax-tilt";
 
 function About() {
@@ -39,7 +40,7 @@ function About() {
             className="about-img circular-image"
           >
             <Tilt>
-            <img src={laptopImg} alt="about" className="img-fluid rounded-circle" />
+            <img src={AboutImg} alt="about" className="img-fluid rounded-circle" />
             </Tilt>
           </Col>
         </Row>

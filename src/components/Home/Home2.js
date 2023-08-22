@@ -19,16 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am fluent in classics like
+              I am fluent in 
               <i>
-                <b className="purple"> C++ and Python. </b>
+                <b className="purple"> Javascript and React.js. </b>
               </i>
               <br />
               <br />
-              I debug more than I code.
+              I learning new things about Web Development.
               <br />
               <br />
-              My pronouns are <i><b>Jack of All Trades / Master of none</b></i>
+              I am currently working on <i><b className="purple"> Flipkart</b></i> clone
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -46,7 +46,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sukrutrahane"
+                  href="https://github.com/hariprasatham"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -56,7 +56,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/sukrutrahane"
+                  href="https://twitter.com/HariprasathA4"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -66,7 +66,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sukrutrahane/"
+                  href="https://www.linkedin.com/in/hariprasatham/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +74,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/sukkkrut"
                   target="_blank"
@@ -83,7 +83,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
