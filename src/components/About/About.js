@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import Projects from "./Projects";
 import laptopImg from "../../Assets/sukrut_square.jpg";
 import AboutImg from "../../Assets/programmer.png"
 import Tilt from "react-parallax-tilt";
@@ -49,6 +50,13 @@ function About() {
         </h1>
 
         <Techstack />
+
+        <h1 className="project-heading">
+          {/* Professional <strong className="purple">Skillset </strong> */}
+          Projects
+        </h1>
+
+        <Projects />
 
       </Container>
     </Container>
