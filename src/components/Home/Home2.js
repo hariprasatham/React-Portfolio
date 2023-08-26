@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am fluent in 
+              I am proficient in 
               <i>
                 <b className="purple"> Javascript and React.js. </b>
               </i>
@@ -28,7 +28,7 @@ function Home2() {
               I learning new things about Web Development.
               <br />
               <br />
-              I am currently working on <i><b className="purple"> Flipkart</b></i> clone
+              I am currently building on <i><b className="purple"> Flipkart</b></i> clone
             </p>
           </Col>
           <Col md={4} className="myAvtar">

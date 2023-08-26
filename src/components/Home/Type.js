@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "FRONTEND DEVELOPER",
           "REACT DEVELOPER",
-          "CONTINUOUS LEANER...",
+          "CONTINUOUS LEARNER...",
         ],
         autoStart: true,
         loop: true,
