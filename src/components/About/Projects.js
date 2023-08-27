@@ -44,10 +44,11 @@ const projects = [
 function Projects() {
   return (
     <Row
-      style={{ justifyContent: "center", paddingBottom: "50px", width: "100%" }}
+      style={{ justifyContent: "center", paddingBottom: "50px"}}
+      className="gy-5"
     >
       {projects.map((project) => (
-        <Col xs={1} sm={4} md={3} key={project.id}>
+        <Col xs={12} sm={12} md={6} lg={4} key={project.id}>
           <h4>{project.title}</h4>
           <ProjectCard
             ProjectImg={project.img}
