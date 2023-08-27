@@ -28,7 +28,7 @@ function Home2() {
               I learning new things about Web Development.
               <br />
               <br />
-              I am currently building on <i><b className="purple"> Flipkart</b></i> clone
+              I am currently building <i><b className="purple"> <a className="purple" href="https://ecommerce-flipkart-clone-hari-react.vercel.app/" target="_blank">Flipkart</a> </b></i> clone
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -74,16 +74,6 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/sukkkrut"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li> */}
             </ul>
           </Col>
         </Row>
